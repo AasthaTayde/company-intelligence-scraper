@@ -45,9 +45,9 @@ company-intelligence-scraper/
 │   └── src/
 │       ├── main.jsx
 │       └── style.css
-├── tests/                 # Test directory name may vary
-├── output/                # Generated exports, if configured
-├── logs/                  # Application logs, if configured
+├── tests/                 
+├── output/                
+├── logs/                 
 ├── package.json
 ├── package-lock.json
 └── README.md
