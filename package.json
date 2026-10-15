@@ -1,0 +1,21 @@
+{
+  "name": "company-intelligence-scraper",
+  "version": "1.0.0",
+  "description": "A configurable company website scraper with CSV/JSON export, logging, tests, and data-quality reporting.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "scrape": "node src/cli.js",
+    "test": "node --test",
+    "check": "node --check src/server.js && node --check src/cli.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
