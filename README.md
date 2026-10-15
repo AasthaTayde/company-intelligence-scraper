@@ -310,22 +310,6 @@ npm run check
 - Add enrichment using authorized company-data APIs.
 - Expand automated tests for batch failures, export formats, and API status codes.
 
-## Submission Checklist
-
-- [ ] Install backend dependencies successfully.
-- [ ] Install frontend dependencies successfully.
-- [x] Run automated tests successfully (8 tests passed during development).
-- [x] Verify valid URL scraping.
-- [x] Verify invalid URL validation returns HTTP `400`.
-- [x] Verify CSV and JSON downloads.
-- [ ] Verify the README commands against the current `package.json` scripts.
-- [ ] Verify mixed batches containing valid and invalid URLs.
-- [ ] Review generated logs and output files.
-- [ ] Commit the final project with meaningful commit messages.
-- [ ] Push the repository to GitHub or GitLab.
-- [ ] Invite the evaluator using the email address specified in the assignment.
-- [ ] Confirm the evaluator has the required repository access.
-
 ## License
 
 Add the license required by your assignment or chosen for this project, if applicable.
